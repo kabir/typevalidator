@@ -38,13 +38,18 @@
     <name>JBoss AS ModelValidator</name>
 
     <properties>
-       <jboss.as.version>7.1.0.Alpha1-SNAPSHOT</jboss.as.version>
+       <jboss.as.version>7.1.0.Alpha2-SNAPSHOT</jboss.as.version>
     </properties>
 
     <dependencies>
        <dependency>
            <groupId>org.jboss.as</groupId>
            <artifactId>jboss-as-controller-client</artifactId>
+           <version>${jboss.as.version}</version>
+       </dependency>
+       <dependency>
+           <groupId>org.jboss.as</groupId>
+           <artifactId>jboss-as-subsystem-test</artifactId>
            <version>${jboss.as.version}</version>
        </dependency>
     </dependencies>
